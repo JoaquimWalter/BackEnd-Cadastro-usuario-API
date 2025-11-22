@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "start": "node server.js",
   "scripts": {
     "dev": "node --watch server.js"
   },
@@ -11,9 +10,6 @@
   "author": "",
   "license": "ISC",
   "type": "module",
-  "engines": {
-    "node": "22.x"
-  },
   "dependencies": {
     "@prisma/client": "^6.19.0",
     "cors": "^2.8.5",
